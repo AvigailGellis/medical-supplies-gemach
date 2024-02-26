@@ -1,0 +1,43 @@
+/*
+
+I run an organization that lends out medical supplies to people in need on a short term basis and I need a system to keep everything organized. 
+I need each borrower's name and phone number.
+I need to know when each item was picked up and when it was returned.
+I also want to keep track of the condition of each item when they were borrowed and returned.
+
+I need the following reports:
+
+How many times each item was borrowed, ordered by most often to least often.
+A list of all items sorted by the condition they're currently in.
+I want to know the average amount of days items have been borrowed for. 
+I also want to know the longest and shortest amount of time an item has been borrowed for.
+For items that haven't been returned yet, how long has it been since they were borrowed?
+I want to know how many people gave donations and how many declined.
+
+Questions:
+1. Do you have a limit on how long the items can be lent out for?
+No.
+
+2. Can someone borrow more than one item at a time?
+It doesn't usually happen.
+
+3. Do you need to record the time that the items were borrowed and returned?
+No, the date is enough.
+
+4. Do you charge money for this service?
+No, but when the items are returned we do ask for a donation, which most people are happy to give. We don't need to record the amounts (we do that in a different system), I just need to know if a donation was made or not.
+
+Sample data:
+
+Name, Phone Number, Item Name, Date Borrowed, Condition Borrowed, Date Returned, Condition Returned, Donation?
+
+David Cohen, 123-456-7891, Crutches, 08-01-2023, Good, 10-05-2023, Fair, Yes
+Malky Klein, 234-567-8911, Wheelchair, 06-15-2023, Fair, 07-27-2023, Poor, No
+Devorah Adler, 345-678-9123, Boot, 09-09-2023, Excellent, 11-20-2023, Good, Yes
+Rivky Goldstein, 456-789-1234, Crutches, 11-07-2023, Good, 01-02-2024, Good, Yes
+Moshe Green, 567-891-2345, Telescopic Cane, 01-23-2023, Fair, 03-04-2023, Poor, Yes
+Chava Segal, 678-912-3456, Boot, 05-06-2023, Good, 07-09-2023, Fair, No
+Sarah Reisman , 789-123-4567, Inhaler, 12-12-2023, Excellent, not returned yet
+Esty Shulman, 891-234-5678, Walker, 10-04-2023, Fair, not returned yet
+
+*/
