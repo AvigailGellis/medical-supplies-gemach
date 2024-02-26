@@ -7,7 +7,7 @@ I also want to keep track of the condition of each item when they were borrowed 
 
 I need the following reports:
 
-How many times each item was borrowed, ordered by most often to least often.
+nHow many times each item was borrowed, ordered by most often to least often.
 A list of all items sorted by the condition they're currently in.
 I want to know the average amount of days items have been borrowed for. 
 I also want to know the longest and shortest amount of time an item has been borrowed for.
