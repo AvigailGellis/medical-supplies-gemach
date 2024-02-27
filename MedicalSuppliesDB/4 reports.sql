@@ -23,6 +23,6 @@ select NoDonation = count(*)
 from GemachCustomer g 
 where g.Donation = 0 and g.DateReturned is not null
 
-select NoDonation = count(*)
+select DonationMade = count(*)
 from GemachCustomer g 
 where g.Donation = 1
